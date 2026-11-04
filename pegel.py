@@ -4,6 +4,7 @@ Befehle (aus dem Repository-Ordner):
   python pegel.py update                      letzte 31 Tage aller Pegel nachladen und anhängen
   python pegel.py wsa                         WSA-Abgabeplan der Edertalsperre (PDF) in daten/wsa/abgabe.csv eintragen
   python pegel.py build                       tageswerte.json für die App erzeugen
+  python pegel.py live                        live.json für den Prognose-Lauf erzeugen (rechnet nur aus dem Archiv)
   python pegel.py seed <csv> <Pegelnummer> <W|Q>   Download von pegelonline.wsv.de (Ortszeit, „;“, Komma) einlesen
   python pegel.py seed-json <json> <Pegelnummer> <W|Q>   JSON-Download (ISO-Zeitstempel mit Offset) einlesen"""
 import os, sys, re, csv, json, io, datetime as dt, urllib.request, urllib.parse
@@ -113,27 +114,28 @@ def seed_json(path, nr, param):
     print(f'{len(pts)} Werte, {add(nr, param, pts)} neu')
 
 
-def series(nr, param):
+def keymap(nr, param):
+    """Ganze Reihe als Zuordnung „Zeitstempel-Text → Wert-Text“ (ohne Datumsumrechnung je Zeile, das spart den größten Teil der Rechenzeit)."""
     out = {}
     d = folder(nr, param)
     if os.path.isdir(d):
         for fn in sorted(os.listdir(d)):
-            for t, v in read_year(os.path.join(d, fn)).items():
-                out[dt.datetime.strptime(t, '%Y-%m-%dT%H:%MZ').replace(tzinfo=UTC)] = float(v)
+            out.update(read_year(os.path.join(d, fn)))
     return out
 
 
-def at7(s, day):
-    """Wert um 07:00 Ortszeit (oder innerhalb von 30 Minuten davor)."""
+def at7(m, day):
+    """Wert um 07:00 Ortszeit (oder innerhalb von 30 Minuten davor) aus einer keymap."""
     t = dt.datetime(day.year, day.month, day.day, 7, 0, tzinfo=BERLIN).astimezone(UTC)
     for k in range(0, 3):
-        v = s.get(t - dt.timedelta(minutes=15 * k))
-        if v is not None: return v
+        v = m.get((t - dt.timedelta(minutes=15 * k)).strftime('%Y-%m-%dT%H:%MZ'))
+        if v is not None: return float(v)
     return None
 
 
 def wsa():
-    import tempfile
+    """WSA-Vorhersage (PDF) einmal holen: Text des Tages sichern (daten/wsa/text/), Abgabeplan eintragen (daten/wsa/abgabe.csv)
+    und das Ergebnis für live() in daten/wsa/aktuell.json ablegen (so wird das PDF nur einmal je Lauf geladen)."""
     try:
         import pypdf
     except ImportError:
@@ -144,6 +146,10 @@ def wsa():
     block = txt.split('Abgabenplanung Edertalsperre', 1)[-1].split('Abgabenplanung Diemeltalsperre', 1)[0]
     plan = re.findall(r'(\d\d)\.(\d\d)\.(\d{4})\s+\d\d:\d\d\s+([\d,]+)\s*m³/s', block)
     if not plan or not stand: raise SystemExit('Abgabeplan nicht gefunden')
+    today = dt.datetime.now(BERLIN).date()
+    tdir = os.path.join(DATEN, 'wsa', 'text')
+    os.makedirs(tdir, exist_ok=True)
+    open(os.path.join(tdir, f'{today}.txt'), 'w', encoding='utf-8').write(txt)      # je Tag eine Datei, der letzte Lauf des Tages gewinnt
     path = os.path.join(DATEN, 'wsa', 'abgabe.csv')      # Tag;Abgabe m³/s;Stand der Vorhersage; später gewinnt der aktuellere Stand
     cur = {}
     if os.path.exists(path):
@@ -151,7 +157,6 @@ def wsa():
             p = line.strip().split(';')
             if len(p) == 3: cur[p[0]] = (p[1], p[2])
     st = dt.datetime.strptime(stand.group(1), '%d.%m.%Y %H:%M').strftime('%Y-%m-%dT%H:%M')
-    today = dt.datetime.now(BERLIN).date()
     n = 0
     for d, m, y, v in plan:
         day = dt.date(int(y), int(m), int(d))
@@ -159,17 +164,71 @@ def wsa():
         key = day.isoformat()
         if key not in cur or cur[key][1] <= st:
             cur[key] = (v.replace(',', '.'), st); n += 1
-    os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, 'w', encoding='utf-8', newline='\n') as f:
         for k in sorted(cur): f.write(f'{k};{cur[k][0]};{cur[k][1]}\n')
+    status = re.search(r'Abgabenplanung\s*\n(.*?)\n\s*Voraussichtliche Entwicklung der Wasserstände', txt, re.S)
+    mittel = re.search(r'langjähriges Mittel aktuell:\s+([\d,]+)', txt)
+    aktuell = dict(abgerufen=dt.datetime.now(UTC).isoformat(timespec='minutes'), stand=stand.group(1),
+                   plan=[(dt.date(int(y), int(m), int(d)).isoformat(), float(v.replace(',', '.'))) for d, m, y, v in plan],
+                   text=' '.join(l.strip() for l in status.group(1).splitlines() if l.strip()) if status else None,
+                   mittel=float(mittel.group(1).replace(',', '.')) if mittel else None)
+    json.dump(aktuell, open(os.path.join(DATEN, 'wsa', 'aktuell.json'), 'w', encoding='utf-8'), ensure_ascii=False)
     print(f'Abgabeplan Stand {stand.group(1)}: {n} Tage eingetragen')
 
 
+def recent(nr, param, days=31):
+    """Nur die letzten Tage einer Reihe (liest höchstens die beiden jüngsten Jahresdateien statt des ganzen Archivs)."""
+    out = {}
+    d = folder(nr, param)
+    if not os.path.isdir(d): return out
+    limit = dt.datetime.now(UTC) - dt.timedelta(days=days)
+    for fn in sorted(os.listdir(d))[-2:]:
+        for t, v in read_year(os.path.join(d, fn)).items():
+            ts = dt.datetime.strptime(t, '%Y-%m-%dT%H:%MZ').replace(tzinfo=UTC)
+            if ts >= limit: out[ts] = float(v)
+    return out
+
+
+def live():
+    """site/live.json für den Prognose-Lauf (gleiche Felder wie früher Tools/Prognose/live.py): letzte Werte, Tagesmittel der Abflüsse,
+    Restabfluss Hann. Münden (Bonaforth + Letzter Heller) und die WSA-Vorhersage. Rechnet nur aus dem Archiv, ruft nichts ab."""
+    import collections
+
+    def local(ts): return ts.astimezone(BERLIN)
+
+    def letzter(s):
+        t = max(s)
+        return [local(t).isoformat(timespec='seconds'), s[t]]
+
+    def tage(s, min_n=80):
+        d = collections.defaultdict(list)
+        for t, v in s.items(): d[local(t).date().isoformat()].append(v)
+        return {k: sum(v) / len(v) for k, v in d.items() if len(v) >= min_n}
+
+    now = dt.datetime.now(UTC)
+    see = recent('42800310', 'W', 8)
+    out = dict(abgerufen=dt.datetime.now(BERLIN).isoformat(timespec='minutes'))
+    out['see'] = dict(letzter=letzter(see), um7=[[local(t).isoformat(timespec='seconds'), v] for t, v in sorted(see.items())
+                                                 if (local(t).hour, local(t).minute) == (7, 0)])
+    for nr, key in (('42800309', 'schmittlotheim'), ('BONAFORTH', 'bonaforth'), ('LETZTER HELLER', 'letzter_heller')):
+        s = recent(nr, 'Q', 31)
+        out[key] = dict(letzter=letzter(s), tage=tage(s), alter_stunden=round((now - max(s)).total_seconds() / 3600, 1))
+    out['hmue_tage'] = {k: round(out['bonaforth']['tage'][k] + out['letzter_heller']['tage'][k], 2)
+                        for k in out['bonaforth']['tage'] if k in out['letzter_heller']['tage']}
+    p = os.path.join(DATEN, 'wsa', 'aktuell.json')
+    w = json.load(open(p, encoding='utf-8')) if os.path.exists(p) else None
+    if w and dt.datetime.now(UTC) - dt.datetime.fromisoformat(w['abgerufen']) > dt.timedelta(hours=12): w = None      # veraltet: lieber ein Fehler als ein alter Plan
+    out['wsa'] = w or dict(fehler='WSA-Vorhersage nicht geladen')
+    os.makedirs(os.path.join(ROOT, 'site'), exist_ok=True)
+    with open(os.path.join(ROOT, 'site', 'live.json'), 'w', encoding='utf-8') as f:
+        json.dump(out, f, ensure_ascii=False, separators=(',', ':'))
+    print('live.json:', out['see']['letzter'], '| Schmittlotheim', out['schmittlotheim']['letzter'], f"({out['schmittlotheim']['alter_stunden']} h alt)")
+
+
 def build():
-    lvl, q, aff = series('42800310', 'W'), series('42800309', 'Q'), series('42800502', 'W')
-    first = min(lvl)
-    start = first.astimezone(BERLIN).date()
-    end = max(lvl).astimezone(BERLIN).date()
+    lvl, q, aff = keymap('42800310', 'W'), keymap('42800309', 'Q'), keymap('42800502', 'W')
+    def tag(key): return dt.datetime.strptime(key, '%Y-%m-%dT%H:%MZ').replace(tzinfo=UTC).astimezone(BERLIN).date()
+    start, end = tag(min(lvl)), tag(max(lvl))
     days = [start + dt.timedelta(i) for i in range((end - start).days + 1)]
     level = [at7(lvl, d) for d in days]
     qs = {d: at7(q, d) for d in days if q}
@@ -202,6 +261,7 @@ if __name__ == '__main__':
     if c == 'update': update()
     elif c == 'wsa': wsa()
     elif c == 'build': build()
+    elif c == 'live': live()
     elif c == 'seed' and len(sys.argv) == 5: seed(*sys.argv[2:5])
     elif c == 'seed-json' and len(sys.argv) == 5: seed_json(*sys.argv[2:5])
     else: print(__doc__)
