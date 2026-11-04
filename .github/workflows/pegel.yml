@@ -1,0 +1,44 @@
+# Pegelarchiv: holt mehrmals täglich die Pegelwerte der WSV (31 Tage zurück, daher kann ein Lauf ausfallen, ohne dass Lücken entstehen),
+# trägt den Abgabeplan des WSA Weser ein, schreibt die Daten ins Repository und veröffentlicht tageswerte.json über GitHub Pages.
+name: Pegelarchiv
+on:
+  schedule:
+    - cron: '10 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pegel
+  cancel-in-progress: false
+jobs:
+  archivieren:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pypdf
+      - run: python pegel.py update
+      - run: python pegel.py wsa
+        continue-on-error: true      # ein Ausfall des WSA-PDF darf die Pegelwerte nicht aufhalten
+      - run: python pegel.py build
+      - name: Daten ins Repository
+        run: |
+          git config user.name "Pegelarchiv"
+          git config user.email "actions@github.com"
+          git add daten
+          git diff --cached --quiet || (git commit -q -m "Pegelwerte $(date -u +%Y-%m-%d_%H%M)" && git push -q)
+      - run: cp index.html site/index.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
