@@ -1,6 +1,6 @@
 Wasserstandvorhersage des Wasserstraßen- und
 Schifffahrtsamtes Weser
-                           Stand:           Mo 09.11.2026 08:30
+                           Stand:           Mi 11.11.2026 08:15
 
                                                              0    Anz. Pegel
 Hochwasser-                                 HSW                   0                      40 Mio m³ Inhalt an der Edertalsperre unterschritte                      n,
@@ -17,10 +17,12 @@ Für das Einzugsgebiet der Weser werden gebietsweise                            
 
 
 
+
 Voraussichtliche Entwicklung an den Talsperren
 
 Leichter Einstau an der Edertalsperre.
 Abstau an der Diemeltalsperre.
+
 
 
 
@@ -53,111 +55,91 @@ Die Abgabenplanung erfolgt nur noch am Montag, am Mit                           
 
 
 
-
-
-
                                                                                                                                                                                          künftige Niederschläge
-    HW-Wellenberechnung2026-11-09bisDrakenburgMitBilanz                                          Talsperre.xlsm                                                                 werden nicht berücksichtigt                       .
+    HW-Wellenberechnung2026-11-11bisDrakenburgMitBilanz                                          Talsperre.xlsm                                                                 werden nicht berücksichtigt                       .
     Alle Zeitangaben in             MEZ                                                       1 / 15                                                                    Alle Angaben ohne Gewähr
-Wasserstandsvorhersage                                                                                                                                                                                    Fahrwassertiefe
-Pegel Hann. Münden/WESER (km 0,650)                                                                                            W                                                                          = W - 17 cm
-
-
-
-
-
-     110
-
-     105
-
-     100
-
-       95
-
-       90
-
-       85
-
-       80
-
-       75
-
-       70
-
-       65
-
-       60
-
-       55
-
-       50
-
-       45
-
-       40
-       Di 03.11.    Mi 04.11.   Do 05.11.    Fr 06.11.    Sa 07.11.   So 08.                          11.   Mo 09.11.   Di 10.11.    Mi 11.11.   Do 12.11.    Fr 13.11.    Sa                           14.11.   So 15.11.
-                        HMÜ ohne EderTsp                                            HannMünden W                                               Vorhersage                                                  Abschätzung
-                        letzter Abruf                                               Vorhersagetiefe                                            Stützungsziel 55,1 m3/s                                     HSW =410
-
-
-Wasserstandsvorhersage                                                                                                                                                                                    Fahrwassertiefe
-Pegel Wahmbeck/WESER (km 35,970)                                                                                               W                                                                          = W - 42 cm
-
-
-     140
-
-     135
-
-     130
-
-     125
-
-     120
-
-     115
-
-     110
-
-     105
-
-     100
-
-       95
-
-       90
-
-       85
-
-       80
-
-       75
-
-       70
-      Di.03.11.    Mi.04.11.   Do.05.11.   Fr.06.11.    Sa.07.11.   So.08.                          11.   Mo.09.11.   Di.10.11.    Mi.11.11.   Do.12.11.   Fr.13.11.    Sa.                           14.11.   So.15.11.
-
-                      Wahmbeck W                                Vorhersage                            Abschätzung                             letzter Abruf                           Vorhersagetiefe                             HSW =435
-
-
-
-
-
-
-
-
-
-                                                                                                                                                                                                                       künftige Niederschläge
-    HW-Wellenberechnung2026-11-09bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                        werden nicht berücksichtigt                               .
-    Alle Zeitangaben in                   MEZ                                                       2 / 15                                                                                         Alle Angaben ohne Gewähr
 Wasserstandsvorhersage                                                                                                                                                                                     Fahrwassertiefe
-Pegel Karlshafen/WESER (km 45,520)                                                                                             W                                                                           = W - 5 cm
+Pegel Hann. Münden/WESER (km 0,650)                                                                                            W                                                                           = W - 17 cm
 
 
 
 
-      90
+
+       98
+       96
+       94
+       92
+       90
+       88
+       86
+       84
+       82
+       80
+       78
+       76
+       74
+       72
+       70
+       68
+       66
+       64
+       62
+       60
+       58
+       56
+       54
+       52
+       50
+       Do 05.11.    Fr 06.11.    Sa 07.11.   So 08.11.   Mo 09.11.   Di 10.                           11.    Mi 11.11.   Do 12.11.    Fr 13.11.    Sa 14.11.   So 15.11.   Mo                            16.11.   Di 17.11.
+                        HMÜ ohne EderTsp                                            HannMünden W                                                Vorhersage                                                  Abschätzung
+                        letzter Abruf                                               Vorhersagetiefe                                             Stützungsziel 55,1 m3/s                                     HSW =410
 
 
-      85
+Wasserstandsvorhersage                                                                                                                                                                                     Fahrwassertiefe
+Pegel Wahmbeck/WESER (km 35,970)                                                                                               W                                                                           = W - 42 cm
+
+
+     128
+     126
+     124
+     122
+     120
+     118
+     116
+     114
+     112
+     110
+     108
+     106
+     104
+     102
+     100
+       98
+       96
+       94
+       92
+       90
+       88
+       86
+       84
+       82
+       80
+      Do.05.11.   Fr.06.11.    Sa.07.11.   So.08.11.   Mo.09.11.   Di.10.                           11.    Mi.11.11.   Do.12.11.   Fr.13.11.    Sa.14.11.   So.15.11.   Mo.                           16.11.   Di.17.11.
+
+                      Wahmbeck W                                Vorhersage                            Abschätzung                             letzter Abruf                           Vorhersagetiefe                              HSW =435
+
+
+
+
+
+
+                                                                                                                                                                                                                        künftige Niederschläge
+    HW-Wellenberechnung2026-11-11bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                        werden nicht berücksichtigt                                .
+    Alle Zeitangaben in                   MEZ                                                       2 / 15                                                                                          Alle Angaben ohne Gewähr
+Wasserstandsvorhersage                                                                                                                                                                                    Fahrwassertiefe
+Pegel Karlshafen/WESER (km 45,520)                                                                                             W                                                                          = W - 5 cm
+
+
 
 
       80
@@ -166,7 +148,9 @@ Pegel Karlshafen/WESER (km 45,520)                                              
       75
 
 
+
       70
+
 
       65
 
@@ -188,53 +172,45 @@ Pegel Karlshafen/WESER (km 45,520)                                              
 
       35
 
+
       30
-     Di.03.11.    Mi.04.11.    Do.05.11.    Fr.06.11.    Sa.07.11.   So.08.                          11.   Mo.09.11.    Di.10.11.    Mi.11.11.    Do.12.11.    Fr.13.11.    Sa.                           14.11.   So.15.11.
-                       Karlshafen W                                                Vorhersage                                                  Abschätzung                                                 letzter Abruf
-                       Vorhersagetiefe                                             Stützungsziel 63,15 m3/s                                    HSW =410
+     Do.05.11.    Fr.06.11.    Sa.07.11.   So.08.11.   Mo.09.11.   Di.10.                           11.    Mi.11.11.   Do.12.11.    Fr.13.11.    Sa.14.11.   So.15.11.   Mo.                           16.11.   Di.17.11.
+                      Karlshafen W                                                Vorhersage                                                  Abschätzung                                                 letzter Abruf
+                      Vorhersagetiefe                                             Stützungsziel 63,15 m3/s                                    HSW =410
 
 
 
 
 
-Wasserstandsvorhersage                                                                                                                                                                                     Fahrwassertiefe
-Pegel Höxter/WESER (km 69,620)                                                                                                 W                                                                           = W - 10 cm
+Wasserstandsvorhersage                                                                                                                                                                                    Fahrwassertiefe
+Pegel Höxter/WESER (km 69,620)                                                                                                 W                                                                          = W - 10 cm
 
 
-       105
-
-       100
-
-         95
-
+         92
          90
-
-         85
-
+         88
+         86
+         84
+         82
          80
-
-         75
-
+         78
+         76
+         74
+         72
          70
-
-         65
-
+         68
+         66
+         64
+         62
          60
-
-         55
-
+         58
+         56
+         54
+         52
          50
+        Do 05.11.   Fr 06.11.    Sa 07.11.   So 08.11.   Mo 09.11.   Di 10.                           11.    Mi 11.11.   Do 12.11.   Fr 13.11.    Sa 14.11.   So 15.11.   Mo                            16.11.   Di 17.11.
 
-         45
-
-         40
-        Di 03.11.    Mi 04.11.   Do 05.11.    Fr 06.11.    Sa 07.11.   So 08.                          11.   Mo 09.11.   Di 10.11.    Mi 11.11.   Do 12.11.   Fr 13.11.    Sa                           14.11.   So 15.11.
-
-                          Höxter W                           Vorhersage                             Abschätzung                             letzter Abruf                            Vorhersagetiefe                              HSW =450
-
-
-
-
+                         Höxter W                            Vorhersage                            Abschätzung                              letzter Abruf                           Vorhersagetiefe                              HSW =450
 
 
 
@@ -242,24 +218,19 @@ Pegel Höxter/WESER (km 69,620)                                                 
 
 
                                                                                                                                                                                                                        künftige Niederschläge
-    HW-Wellenberechnung2026-11-09bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                        werden nicht berücksichtigt                               .
-    Alle Zeitangaben in                   MEZ                                                       3 / 15                                                                                          Alle Angaben ohne Gewähr
-Wasserstandsvorhersage                                                                                                                                                                                  Fahrwassertiefe
-Pegel Bodenwerder/WESER (km 110,720)                                                                                          W                                                                         = W - 28 cm
-
-    125
+    HW-Wellenberechnung2026-11-11bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                       werden nicht berücksichtigt                                .
+    Alle Zeitangaben in                   MEZ                                                       3 / 15                                                                                         Alle Angaben ohne Gewähr
+Wasserstandsvorhersage                                                                                                                                                                                 Fahrwassertiefe
+Pegel Bodenwerder/WESER (km 110,720)                                                                                         W                                                                         = W - 28 cm
 
 
-    120
-
-
-    115
 
 
     110
 
 
     105
+
 
 
     100
@@ -280,6 +251,7 @@ Pegel Bodenwerder/WESER (km 110,720)                                            
       75
 
 
+
       70
 
 
@@ -287,105 +259,91 @@ Pegel Bodenwerder/WESER (km 110,720)                                            
 
 
       60
-     Di 03.11.    Mi 04.11.   Do 05.11.    Fr 06.11.    Sa 07.11.   So 08.                          11.   Mo 09.11.    Di 10.11.    Mi 11.11.    Do 12.11.    Fr 13.11.    Sa                           14.11.   So 15.11.
+    Do 05.11.    Fr 06.11.    Sa 07.11.   So 08.11.   Mo 09.11.   Di 10.                           11.    Mi 11.11.   Do 12.11.    Fr 13.11.    Sa 14.11.   So 15.11.   Mo                            16.11.   Di 17.11.
 
-                      Bodenwerder W                              Vorhersage                            Abschätzung                            letzter Abruf                         Vorhersagetiefe                             HSW =450
-
-
-
-Wasserstandsvorhersage                                                                                                                                                                                  Fahrwassertiefe
-Pegel Hameln-Wehrbergen/WESER (km 139,680)                                                                                                           W                                                  = W + 5 cm
+                      Bodenwerder W                              Vorhersage                           Abschätzung                            letzter Abruf                         Vorhersagetiefe                             HSW =450
 
 
 
-       95
+Wasserstandsvorhersage                                                                                                                                                                                 Fahrwassertiefe
+Pegel Hameln-Wehrbergen/WESER (km 139,680)                                                                                                          W                                                  = W + 5 cm
 
 
-       90
 
-       85
+
 
        80
 
 
        75
 
+
        70
+
 
        65
 
 
        60
 
+
        55
 
 
        50
 
+
        45
 
+
        40
+
 
        35
 
 
        30
-       Di 03.11.    Mi 04.11.   Do 05.11.    Fr 06.11.    Sa 07.11.   So 08.                          11.   Mo 09.11.   Di 10.11.    Mi 11.11.   Do 12.11.    Fr 13.11.    Sa                           14.11.   So 15.11.
+       Do 05.11.   Fr 06.11.    Sa 07.11.   So 08.11.   Mo 09.11.   Di 10.                           11.    Mi 11.11.   Do 12.11.    Fr 13.11.    Sa 14.11.   So 15.11.   Mo                            16.11.   Di 17.11.
 
-                         Hameln W                            Vorhersage                            Abschätzung                             letzter Abruf                           Vorhersagetiefe                             HSW =465
-
-
+                         Hameln W                            Vorhersage                            Abschätzung                            letzter Abruf                           Vorhersagetiefe                             HSW =465
 
 
 
 
 
 
-
-                                                                                                                                                                                                                     künftige Niederschläge
-    HW-Wellenberechnung2026-11-09bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                     werden nicht berücksichtigt                               .
+                                                                                                                                                                                                                    künftige Niederschläge
+    HW-Wellenberechnung2026-11-11bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                     werden nicht berücksichtigt                              .
     Alle Zeitangaben in                   MEZ                                                       4 / 15                                                                                       Alle Angaben ohne Gewähr
 Wasserstandsvorhersage                                                                                                                                                                                    Fahrwassertiefe
 Pegel Rinteln/WESER (km 163,240)                                                                                               W                                                                          = W - xx cm
 
-     130
 
-
-     125
-
-
-     120
-
-
-     115
-
-
+     116
+     114
+     112
      110
-
-
-     105
-
-
+     108
+     106
+     104
+     102
      100
-
-
-       95
-
-
+       98
+       96
+       94
+       92
        90
-
-
-       85
-
-
+       88
+       86
+       84
+       82
        80
-
-
-       75
-
-
+       78
+       76
+       74
+       72
        70
-      Di 03.11.    Mi 04.11.   Do 05.11.    Fr 06.11.    Sa 07.11.   So 08.                          11.   Mo 09.11.   Di 10.11.    Mi 11.11.   Do 12.11.    Fr 13.11.    Sa                           14.11.   So 15.11.
+      Do 05.11.   Fr 06.11.    Sa 07.11.   So 08.11.   Mo 09.11.   Di 10.                           11.    Mi 11.11.   Do 12.11.    Fr 13.11.    Sa 14.11.   So 15.11.   Mo                            16.11.   Di 17.11.
 
                                Rinteln W                          Vorhersage                           Abschätzung                             letzter Abruf                          Vorhersagetiefe                             HSW =485
 
@@ -395,13 +353,6 @@ Wasserstandsvorhersage                                                          
 Pegel Vlotho/WESER (km 184,010)                                                                                                W                                                                          = W - xx cm
 
 
-   130
-
-
-   125
-
-
-   120
 
 
    115
@@ -438,14 +389,11 @@ Pegel Vlotho/WESER (km 184,010)                                                 
 
 
      60
-    Di 03.11.    Mi 04.11.    Do 05.11.    Fr 06.11.    Sa 07.11.    So 08.                          11.   Mo 09.11.    Di 10.11.    Mi 11.11.    Do 12.11.    Fr 13.11.    Sa                           14.11.    So 15.11.
+    Do 05.11.    Fr 06.11.    Sa 07.11.    So 08.11.   Mo 09.11.    Di 10.                           11.    Mi 11.11.    Do 12.11.    Fr 13.11.    Sa 14.11.    So 15.11.   Mo                            16.11.    Di 17.11.
 
 
 
-                              Vlotho W                          Vorhersage                            Abschätzung                             letzter Abruf                           Vorhersagetiefe                             HSW =485
-
-
-
+                              Vlotho W                          Vorhersage                            Abschätzung                             letzter Abruf                          Vorhersagetiefe                              HSW =485
 
 
 
@@ -453,96 +401,89 @@ Pegel Vlotho/WESER (km 184,010)                                                 
 
 
                                                                                                                                                                                                                        künftige Niederschläge
-    HW-Wellenberechnung2026-11-09bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                       werden nicht berücksichtigt                                .
-    Alle Zeitangaben in                   MEZ                                                       5 / 15                                                                                         Alle Angaben ohne Gewähr
+    HW-Wellenberechnung2026-11-11bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                        werden nicht berücksichtigt                               .
+    Alle Zeitangaben in                   MEZ                                                       5 / 15                                                                                          Alle Angaben ohne Gewähr
 Wasserstandsvorhersage                                                                                                                                                                                   Fahrwassertiefe
 Pegel Porta/WESER (km 198,360)                                                                                                W                                                                          = W - 31 cm
 
 
-    130
-
-
-    125
-
-
-    120
-
-
-    115
-
-
+    118
+    116
+    114
+    112
     110
-
-
-    105
-
-
+    108
+    106
+    104
+    102
     100
-
-
-      95
-
-
+      98
+      96
+      94
+      92
       90
-
-
-      85
-
-
+      88
+      86
+      84
+      82
       80
-
-
-      75
-
-
+      78
+      76
+      74
+      72
       70
-      Di 03.11.    Mi 04.11.    Do 05.11.    Fr 06.11.    Sa 07.11.   So 08.                          11.   Mo 09.11.    Di 10.11.    Mi 11.11.   Do 12.11.    Fr 13.11.    Sa                           14.11.   So 15.11.
+      Do 05.11.    Fr 06.11.    Sa 07.11.   So 08.11.   Mo 09.11.    Di 10.                           11.    Mi 11.11.   Do 12.11.    Fr 13.11.    Sa 14.11.   So 15.11.   Mo                            16.11.    Di 17.11.
 
-                        Porta W                           Vorhersage                            Abschätzung                              letzter Abruf                           Vorhersagetiefe                               HSW =480
-
-
-Wasserstandsvorhersage                                                                                                                                                        Fahrwassertiefe
-Pegel Petershagen/WESER (km 215,780)                                                                                          W                                               = W - xx cm
+                        Porta W                           Vorhersage                            Abschätzung                              letzter Abruf                            Vorhersagetiefe                              HSW =480
 
 
-   290
+Wasserstandsvorhersage                                                                                                                                                         Fahrwassertiefe
+Pegel Petershagen/WESER (km 215,780)                                                                                          W                                                = W - xx cm
 
-   285
 
-   280
+
 
    275
 
+
    270
 
+
    265
+
 
    260
 
    255
 
+
    250
+
 
    245
 
+
    240
+
 
    235
 
+
    230
+
 
    225
 
+
    220
+
 
    215
 
    210
-      Di 03.11.    Mi 04.11.   Do 05.11.    Fr 06.11.    Sa 07.11.   So 08.                          11.   Mo 09.11.   Di 10.11.    Mi 11.11.   Do 12.11.    Fr 13.11.    Sa                           14.11.   So 15.11.
+     Do 05.11.    Fr 06.11.    Sa 07.11.   So 08.11.   Mo 09.11.   Di 10.                           11.    Mi 11.11.   Do 12.11.    Fr 13.11.    Sa 14.11.   So 15.11.   Mo                            16.11.   Di 17.11.
 
-                     Petershagen W                              Vorhersage                           Abschätzung                             letzter Abruf                          Vorhersagetiefe                             HSW =645
-
-
+                     Petershagen W                              Vorhersage                            Abschätzung                            letzter Abruf                          Vorhersagetiefe                              HSW =645
 
 
 
@@ -550,16 +491,15 @@ Pegel Petershagen/WESER (km 215,780)                                            
 
 
 
-
-                                                                                                                                                                                                                     künftige Niederschläge
-    HW-Wellenberechnung2026-11-09bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                      werden nicht berücksichtigt                               .
+                                                                                                                                                                                                                      künftige Niederschläge
+    HW-Wellenberechnung2026-11-11bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                      werden nicht berücksichtigt                               .
     Alle Zeitangaben in                   MEZ                                                       6 / 15                                                                                        Alle Angaben ohne Gewähr
 Wasserstandsvorhersage                                                                                                                                                          Fahrwassertiefe
 Pegel Stolzenau/WESER (km 243,420)                                                                                             W                                                = W - xx cm
 
 
-
  314
+
 
 
  312
@@ -572,6 +512,7 @@ Pegel Stolzenau/WESER (km 243,420)                                              
 
 
  306
+
 
 
  304
@@ -592,57 +533,63 @@ Pegel Stolzenau/WESER (km 243,420)                                              
  294
 
 
+
  292
 
 
  290
-  Di 03.11.    Mi 04.11.    Do 05.11.    Fr 06.11.    Sa 07.11.    So 08.                          11.    Mo 09.11.    Di 10.11.     Mi 11.11.    Do 12.11.    Fr 13.11.    Sa                           14.11.    So 15.11.
+  Do 05.11.    Fr 06.11.    Sa 07.11.    So 08.11.    Mo 09.11.    Di 10.                           11.    Mi 11.11.    Do 12.11.    Fr 13.11.    Sa 14.11.    So 15.11.    Mo                            16.11.    Di 17.11.
 
                       Stolzenau W                             Vorhersage                             Abschätzung                             letzter Abruf                           Vorhersagetiefe                              HSW =550
+
 
 
 Wasserstandsvorhersage                                                                                                                                                          Fahrwassertiefe
 Pegel Liebenau/WESER (km 256,000)                                                                                              W                                                = W - xx cm
 
-   132
-
-   130
-
-   128
-
    126
+
 
    124
 
+
    122
+
 
    120
 
+
    118
+
 
    116
 
+
    114
+
 
    112
 
+
    110
+
 
    108
 
+
    106
+
 
    104
 
+
    102
 
+
    100
-      Di 03.11.    Mi 04.11.    Do 05.11.    Fr 06.11.    Sa 07.11.   So 08.                          11.   Mo 09.11.    Di 10.11.    Mi 11.11.    Do 12.11.    Fr 13.11.    Sa                           14.11.   So 15.11.
+     Do 05.11.    Fr 06.11.    Sa 07.11.   So 08.11.   Mo 09.11.    Di 10.                           11.    Mi 11.11.    Do 12.11.    Fr 13.11.    Sa 14.11.   So 15.11.   Mo                            16.11.    Di 17.11.
 
-                       Liebenau W                             Vorhersage                            Abschätzung                              letzter Abruf                           Vorhersagetiefe                              HSW =535
-
-
-
+                      Liebenau W                             Vorhersage                             Abschätzung                             letzter Abruf                            Vorhersagetiefe                              HSW =535
 
 
 
@@ -651,14 +598,12 @@ Pegel Liebenau/WESER (km 256,000)                                               
 
 
                                                                                                                                                                                                                        künftige Niederschläge
-    HW-Wellenberechnung2026-11-09bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                        werden nicht berücksichtigt                               .
-    Alle Zeitangaben in                   MEZ                                                       7 / 15                                                                                         Alle Angaben ohne Gewähr
+    HW-Wellenberechnung2026-11-11bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                        werden nicht berücksichtigt                               .
+    Alle Zeitangaben in                   MEZ                                                       7 / 15                                                                                          Alle Angaben ohne Gewähr
 Wasserstandsvorhersage                                                                                                                                                          Fahrwassertiefe
 Pegel Nienburg/WESER (km 268,180)                                                                                              W                                                = W - xx cm
 
 
-
-  376
 
   375
 
@@ -691,7 +636,7 @@ Pegel Nienburg/WESER (km 268,180)                                               
   361
 
   360
-    Di 03.11.    Mi 04.11.    Do 05.11.    Fr 06.11.    Sa 07.11.    So 08.                          11.    Mo 09.11.    Di 10.11.    Mi 11.11.    Do 12.11.    Fr 13.11.    Sa                           14.11.    So 15.11.
+   Do 05.11.    Fr 06.11.    Sa 07.11.    So 08.11.    Mo 09.11.    Di 10.                           11.    Mi 11.11.    Do 12.11.    Fr 13.11.    Sa 14.11.    So 15.11.    Mo                            16.11.    Di 17.11.
 
                        Nienburg W                             Vorhersage                            Abschätzung                              letzter Abruf                           Vorhersagetiefe                              HSW =600
 
@@ -733,7 +678,10 @@ Pegel Drakenburg/WESER (km 278,880)                                             
 
 
      110
-      Di 03.11.    Mi 04.11.    Do 05.11.    Fr 06.11.    Sa 07.11.    So 08.                          11.   Mo 09.11.    Di 10.11.    Mi 11.11.    Do 12.11.    Fr 13.11.    Sa                           14.11.    So 15.11.
+
+
+     100
+      Do 05.11.    Fr 06.11.    Sa 07.11.    So 08.11.   Mo 09.11.    Di 10.                           11.    Mi 11.11.    Do 12.11.    Fr 13.11.    Sa 14.11.    So 15.11.   Mo                            16.11.    Di 17.11.
 
                        Drakenburg W                              Vorhersage                            Abschätzung                             letzter Abruf                          Vorhersagetiefe                             HSW =695
 
@@ -744,11 +692,8 @@ Pegel Drakenburg/WESER (km 278,880)                                             
 
 
 
-
-
-
-                                                                                                                                                                                                                       künftige Niederschläge
-    HW-Wellenberechnung2026-11-09bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                        werden nicht berücksichtigt                               .
+                                                                                                                                                                                                                        künftige Niederschläge
+    HW-Wellenberechnung2026-11-11bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                        werden nicht berücksichtigt                                .
     Alle Zeitangaben in                   MEZ                                                       8 / 15                                                                                          Alle Angaben ohne Gewähr
 Wasserstandsvorhersage                                                                                                                                                           Fahrwassertiefe
 Pegel Hoya/WESER (km 298,400)                                                                                                   W                                                = W - xx cm
@@ -758,7 +703,6 @@ Pegel Hoya/WESER (km 298,400)                                                   
 
 
 
-    357
 
     356
 
@@ -792,101 +736,99 @@ Pegel Hoya/WESER (km 298,400)                                                   
 
     341
 
-    340                  Hoya Q                           Vorhersage                              Abschätzung                              letzter Abruf                            Vorhersagetiefe                               HSW =590
-      Di 03.11.    Mi 04.11.    Do 05.11.    Fr 06.11.    Sa 07.11.    So 08.                          11.   Mo 09.11.    Di 10.11.    Mi 11.11.    Do 12.11.    Fr 13.11.    Sa                           14.11.    So 15.11.
+    340                  Hoya Q                           Vorhersage                             Abschätzung                               letzter Abruf                            Vorhersagetiefe                               HSW =590
+      Do 05.11.    Fr 06.11.    Sa 07.11.    So 08.11.   Mo 09.11.    Di 10.                           11.    Mi 11.11.    Do 12.11.    Fr 13.11.    Sa 14.11.    So 15.11.   Mo                            16.11.    Di 17.11.
 
 Wasserstandsvorhersage                                                                                                                                                           Fahrwassertiefe
 Pegel Dörverden/WESER (km 308,950)                                                                                              W                                                = W - xx cm
 
 
 
-     244
-
-     242
-
-     240
-
-     238
 
      236
 
+
      234
+
 
      232
 
+
      230
+
 
      228
 
+
      226
+
 
      224
 
+
      222
+
 
      220
 
+
      218
+
 
      216
 
+
      214
+
 
      212
 
+
      210
-      Di 03.11.    Mi 04.11.    Do 05.11.    Fr 06.11.    Sa 07.11.    So 08.                          11.   Mo 09.11.    Di 10.11.    Mi 11.11.    Do 12.11.    Fr 13.11.    Sa                           14.11.    So 15.11.
+      Do 05.11.    Fr 06.11.    Sa 07.11.    So 08.11.   Mo 09.11.    Di 10.                           11.    Mi 11.11.    Do 12.11.    Fr 13.11.    Sa 14.11.    So 15.11.   Mo                            16.11.    Di 17.11.
 
-                       Dörverden Q                             Dörverden Q                             Abschätzung                             letzter Abruf                           Vorhersagetiefe                              HSW =710
-
-
+                       Dörverden Q                             Dörverden Q                             Abschätzung                             letzter Abruf                           Vorhersagetiefe                             HSW =710
 
 
 
 
 
 
-
-
-                                                                                                                                                                                                                         künftige Niederschläge
-    HW-Wellenberechnung2026-11-09bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                         werden nicht berücksichtigt                                .
+                                                                                                                                                                                                                        künftige Niederschläge
+    HW-Wellenberechnung2026-11-11bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                         werden nicht berücksichtigt                                .
     Alle Zeitangaben in                   MEZ                                                       9 / 15                                                                                           Alle Angaben ohne Gewähr
-              34.0                                                               Inhalt der Edertalsperre
+              32,0                                                               Inhalt der Edertalsperre
 
-              33.5
+              31,5
 
-              33.0
+              31,0
 
-              32.5
+              30,5
 
-              32.0
+              30,0
 
-              31.5
+              29,5
 
-              31.0
+              29,0
+                                                                                                                                         28,9
+              28,5
 
-              30.5
+              28,0
 
-              30.0
+              27,5
 
-              29.5
-              29.0                                                                                                                       29.2
+              27,0
 
-              28.5
+              26,5
 
-              28.0
+              26,0
+                  Do 05.11.  Fr 06.11.   Sa 07.11.  So 08.11.  Mo 09.11.  Di 10.                           11.   Mi 11.11.  Do 12.11.  Fr 13.11.  Sa 14.11.  So 15.11.  Mo                            16.11.  Di 17.11.
 
-              27.5
-
-              27.0
-                   Di 03.11.   Mi 04.11.  Do 05.11.  Fr 06.11.   Sa 07.11.  So 08.                          11.  Mo 09.11.  Di 10.11.   Mi 11.11.  Do 12.11.  Fr 13.11.   Sa                           14.11.  So 15.11.
 
                                                   Langjähriges Mittel                       Schneevolumen                             HW-Schutzraum                             Vollfüllung
-                                                  Inhalt gemessen                           Inhalt gerechnet             Zeit         markierte Inhalte                         letzter Abruf
+                                                  Inhalt gemessen                           Inhalt gerechnet            Zeit          markierte Inhalte                         letzter Abruf
 
-                                               langjähriges Mittel aktuell:                                                       75,3             Mio. m³                         -46,0
-
-
+                                               langjähriges Mittel aktuell:                                                       75,6            Mio. m³                          -46,6
 
 
 
@@ -900,79 +842,67 @@ Pegel Dörverden/WESER (km 308,950)                                             
 
 
 
-        11.00                                                            Inhalt der Diemeltalsperre
 
-        10.90
-        10.80
 
-        10.70
+        11,00                                                            Inhalt der Diemeltalsperre
+        10,90
+        10,80
+        10,70
+        10,60
+        10,50
+        10,40
+        10,30
+        10,20
+        10,10
+        10,00
+          9,90
+          9,80                                                                                                                          9,84
 
-        10.60
+          9,70
+          9,60
+          9,50
+          9,40
+          9,30
+          9,20
+              Do 05.11.   Fr 06.11.   Sa 07.11.  So 08.11.  Mo 09.11.   Di 10.                           11.   Mi 11.11.   Do 12.11.   Fr 13.11.   Sa 14.11.  So 15.11.  Mo                            16.11.   Di 17.11.
 
-        10.50
-        10.40
-
-        10.30
-
-        10.20
-
-        10.10
-        10.00                                                                                                                            9.96
-
-          9.90
-
-          9.80
-
-          9.70
-
-          9.60
-          9.50
-
-          9.40
-               Di 03.11.   Mi 04.11.   Do 05.11.   Fr 06.11.   Sa 07.11.  So 08.                          11.  Mo 09.11.   Di 10.11.   Mi 11.11.   Do 12.11.   Fr 13.11.   Sa                           14.11.  So 15.11.
-                  Langjähriges Mittel                                           HW-Schutzraum                           Zeit                  Vollfüllung                                                   Inhalt gemessen
+                  Langjähriges Mittel                                           HW-Schutzraum                           Zeit                  Vollfüllung                                                  Inhalt gemessen
                   Inhalt gerechnet                                              markierte Inhalte                                             letzter Abruf
-                                               langjähriges Mittel aktuell:                                                           7,9        Mio. m³                              2,02
-
-
-
-
+                                               langjähriges Mittel aktuell:                                                           7,9        Mio. m³                              1,91
 
 
                                                                                                                                                                                                                  künftige Niederschläge
-HW-Wellenberechnung2026-11-09bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                     werden nicht berücksichtigt                               .
+HW-Wellenberechnung2026-11-11bisDrakenburgMitBilanzTalsperre.xlsm                                                                                                                                     werden nicht berücksichtigt                               .
 Alle Zeitangaben in                  MEZ                                                      10 / 15                                                                                        Alle Angaben ohne Gewähr
-222.00                                                         Wasserstand der Edertalsperre
+222,00                                                         Wasserstand der Edertalsperre
 
-221.00
-                                                                                                                                         220.58
-220.00
+221,00
+                                                                                                                                        220,50
+220,00
 
-219.00
+219,00
 
-218.00
+218,00
 
-217.00
+217,00
 
-216.00
+216,00
 
-215.00
+215,00
 
-214.00
+214,00
 
-213.00
+213,00
 
-212.00
+212,00
 
-211.00
+211,00
 
-210.00
-         Di 03.11     Mi 04.11    Do 05.11    Fr 06.11     Sa 07.11    So 08.11    Mo                              09.11    Di 10.11     Mi 11.11    Do 12.11    Fr 13.11     Sa 14.11    So 15.                             11
-                        Langjähriges Mittel                                                                 HW-SchutzraumZeit                                                                  Vollstau
-                        Wasserstand gerechnet                                                               markierte Wasserstände                                                             letzter Abruf
+210,00
+        Do 05.11    Fr 06.11     Sa 07.11    So 08.11    Mo 09.11    Di 10.11     Mi                              11.11    Do 12.11    Fr 13.11     Sa 14.11    So 15.11    Mo 16.11    Di 17.                              11
 
-
-
+                       Langjähriges Mittel                                                                 HW-SchutzraumZeit                                                                   Vollstau
+                       Wasserstand gerechnet                                                               markierte Wasserstände                                                              letzter Abruf
 
 
 
@@ -982,38 +912,42 @@ Alle Zeitangaben in                  MEZ                                        
 
 
 
-370.00                                                         Wasserstand der Diemeltalsperre
 
 
-369.00                                                                                                                                   368.81
 
 
-368.00
+370,00                                                         Wasserstand der Diemeltalsperre
 
 
-367.00                                                                                                                                   366.73
+369,00
+                                                                                                                                         368,69
+
+368,00
 
 
-366.00
+367,00
+                                                                                                                                         366,71
+
+366,00
 
 
-365.00
+365,00
 
 
-364.00
+364,00
 
 
-363.00
+363,00
 
 
-362.00
+362,00
 
 
-361.00
+361,00
 
 
-360.00
-         Di 03.11     Mi 04.11    Do 05.11    Fr 06.11     Sa 07.11    So 08.11    Mo                              09.11    Di 10.11     Mi 11.11    Do 12.11    Fr 13.11     Sa 14.11    So 15.                             11
+360,00
+        Do 05.11    Fr 06.11     Sa 07.11    So 08.11    Mo 09.11    Di 10.11     Mi                              11.11    Do 12.11    Fr 13.11     Sa 14.11    So 15.11    Mo 16.11    Di 17.                              11
 
                         Langjähriges Mittel                                                                 HW-SchutzraumZeit                                                                   Vollstau
                         Wasserstand gerechnet                                                               markierte Wasserstände                                                              letzter Abruf
@@ -1025,16 +959,8 @@ Alle Zeitangaben in                  MEZ                                        
 
 
 
-
-
-
-
-
-
-
-
                                                                                                                                                                                                                       künftige Niederschläge
- HW-Wellenberechnung2026-11-09bisDrakenburgMitBilanz                                          Talsperre.xlsm                                                                                               werden nicht berücksichtigt                                .
+ HW-Wellenberechnung2026-11-11bisDrakenburgMitBilanz                                          Talsperre.xlsm                                                                                               werden nicht berücksichtigt                                .
  Alle Zeitangaben in                   MEZ                                                      11 / 15                                                                                           Alle Angaben ohne Gewähr
 Wasserstandsvorhersage des Wasserstraßen-
 und Schifffahrtsamtes Weser
@@ -1100,70 +1026,68 @@ Für die restlichen Teileinzugsgebiete gilt nach wie                            
 
 
 
-
                                                                                                                                                                                      künftige Niederschläge
-    HW-Wellenberechnung2026-11-09bisDrakenburgMitBilanz                                          Talsperre.xlsm                                                             werden nicht berücksichtigt                       .
+    HW-Wellenberechnung2026-11-11bisDrakenburgMitBilanz                                          Talsperre.xlsm                                                             werden nicht berücksichtigt                       .
     Alle Zeitangaben in             MEZ                                                      12 / 15                                                                 Alle Angaben ohne Gewähr
-                            Letzter Abruf:                    09.11.26 08:30
+                            Letzter Abruf:                    11.11.26 08:15
 
 ungefähre Wellenlaufzeiten
  ab Affoldern nach                                               Tage                Stunden
 Guntershausen                                                          0        09:00              9,00
-Bonaforth                                                              0        15:00            15,00
-Hann. Münden                                                           0        16:24            16,40
-Wahmbeck                                                               1        01:24            25,40
-Karlshafen                                                             1        04:24            28,40
-Höxter                                                                 1        10:24            34,40
-Bodenwerder                                                            1        18:24            42,40
-Hameln                                                                 1        21:24            45,40
-Rinteln                                                                2        08:24            56,40
-Vlotho                                                                 2        14:24            62,40
-Porta                                                                  2        20:24            68,40
-Petershagen                                                            2        22:24            70,40
-Stolzenau                                                              3        00:24            72,40
-Liebenau                                                               3        03:24            75,40
-Nienburg                                                               3        05:24            77,40
+Bonaforth                                                              0        15:00           15,00
+Hann. Münden                                                           0        16:24           16,40
+Wahmbeck                                                               1        01:24           25,40
+Karlshafen                                                             1        04:24           28,40
+Höxter                                                                 1        10:24           34,40
+Bodenwerder                                                            1        18:24           42,40
+Hameln                                                                 1        21:24           45,40
+Rinteln                                                                2        08:24           56,40
+Vlotho                                                                 2        14:24           62,40
+Porta                                                                  2        20:24           68,40
+Petershagen                                                            2        22:24           70,40
+Stolzenau                                                              3        00:24           72,40
+Liebenau                                                               3        03:24           75,40
+Nienburg                                                               3        05:24           77,40
 Drakenburg                                                             3        09:24              81,4
 
                                        Abgabenplanung Edertalsperre
                                                            Datum                                                 Abgabe
-                                              Mo 09.11.2026 12:00                                                   4 m³/s
-                                                Di 10.11.2026 10:00                                                 4 m³/s
-                                               Mi 11.11.2026 10:00                                                  4 m³/s
+                                               Mi 11.11.2026 12:00                                                  4 m³/s
                                               Do 12.11.2026 10:00                                                   4 m³/s
                                                 Fr 13.11.2026 10:00                                                 4 m³/s
+                                               Sa 14.11.2026 10:00                                                  4 m³/s
+                                               So 15.11.2026 10:00                                                  4 m³/s
                                        Abgabenplanung Diemeltalsperre
                                                            Datum                                                 Abgabe
 
-                                              Mo 09.11.2026 11:00                                               1,0 m³/s
-                                                Di 10.11.2026 11:00                                             1,0 m³/s
                                                Mi 11.11.2026 11:00                                              1,0 m³/s
+                                              Do 12.11.2026 11:00                                               1,0 m³/s
+                                                Fr 13.11.2026 11:00                                             1,0 m³/s
 
                                                    EDERTALSPERRE                                                      DIEMELTALSPERRE
 
-                         100%                                                              100%
-                           90%                                                                90%
-                           80%                                                                80%
-                           70%                                                                70%
-                           60%                                                                60%
-                           50%                                                                50%
-                           40%                                                                40%
-                           30%                                                                30%
-                           20%                                                                20%
-                           10%                                                                10%
-                              0%                                                                0%
+
+                        100%                                                              100%
+                          90%                                                                90%
+                          80%                                                                80%
+                          70%                                                                70%
+                          60%                                                                60%
+                          50%                                                                50%
+                          40%                                                                40%
+                          30%                                                                30%
+                          20%                                                                20%
+                          10%                                                                10%
+                             0%                                                                0%
                                                  Füllung                                                           Füllung
-           Füllungsgrad                            14,6%                             Füllungsgrad                            50,0%
-                      Füllung                29,2 Mio m³                                        Füllung                10,0 Mio m³
-                  Zulauf(        * )    4,1 m³/s                                             Zulauf(       * )            0,3 m³/s
-                Zulauf(       **   )            3,8 m³/s                                  Zulauf(        **  )            0,2 m³/s
+           Füllungsgrad                            14,5%                             Füllungsgrad                            49,3%
+                      Füllung                28,9 Mio m³                                        Füllung                 9,8 Mio m³
+                  Zulauf(        * )            2,9 m³/s                                    Zulauf(        * )            0,3 m³/s
+                Zulauf(       **   )            3,7 m³/s                                  Zulauf(       **   )            0,2 m³/s
 (*) aus Bilanz (Änderung des Volumens und der Abgab                           e)
+
 (**) Zufluss an Zuflusspegeln gemessen
-
-
-
                                                                                                                                                                  künftige Niederschläge
-   HW-Wellenberechnung2026-11-09bisDrakenburgMitBilanz                                          Talsperre.xlsm                                           werden nicht berücksichtigt                 .
+   HW-Wellenberechnung2026-11-11bisDrakenburgMitBilanz                                          Talsperre.xlsm                                           werden nicht berücksichtigt                 .
    Alle Zeitangaben in          MEZ                                                      13 / 15                                                  Alle Angaben ohne Gewähr
 Ansprechpartner bei Hochwasser:
 Hessen
@@ -1179,35 +1103,35 @@ HWVZ                                0800 000 7898   uehwd@nlwkn.niedersachsen.de
 bzw. die örtlich zuständigen Kreis- und Ortsbehörden
 
 Überschreitung von Grenzwerten innerhalb der nächsten 24 Stunden
-                                       HW I              HW II           HW III            HSW I           HSW II             W max              W min
-                                                                                                                              in 24 h             in 24 h
-Affoldern                                 110                                                                                           4                        Q m³/s
-Rotenburg (HE)                            400              430                470                                                  109                           cm
-Rotenburg (NI)                            360              400                470                                                                                cm
-Guntershausen (HE)                        380              410                450                              290                  #NV                          cm
-Guntershausen (NI)                        320              370                420                                                                                cm
-Bonaforth                                 380              430                480                              390                 207                           cm
-Heldra                                    320              380                430                                                  120                           cm
-Allendorf                                 300              350                410                              280                    51                         cm
-Letzter Heller                            320              370                460                                                  142                           cm
-Hann. Münden (HE)                         500              570                650                              410                    67                64       cm
-Hann. Münden (NI)                         400              470                510                                                                                cm
-Wahmbeck                                  420              480                530                              435                    98                93       cm
-Karlshafen                                390              440                480                              410                    56                52       cm
-Höxter                                    440              500                600                              450                    67                63       cm
-Bodenwerder                               440              470                530                              450                    85                83       cm
-Hameln-Wehrb.                             450              500                550                              465                    55                53       cm
-Rinteln                                   440              500                560                              485                    90                88       cm
-Vlotho                                    450              500                550                              485                    88                85       cm
-Porta                                     450              500                550             430              480                    95                93       cm
-Petershagen                               590              650                710             600              645                 254               252         cm
-Stolzenau                                 500              560                590             500              550                 308               306         cm
-Liebenau                                  510              570                630             490              535                 117               113         cm
-Nienburg                                  550              600                650             600              600                 370               367         cm
-Drakenburg                                610              670                740             650              695                 171               153         cm
-Hoya                                      550              600                650             590              590                 352               349         cm
-Dörverden                                 650              700                750             660              710                 228               222         cm
-Intschede                                 580              620                680             560              610                    14                         cm
+                                       HW I             HW II            HW III            HSW I           HSW II             W max             W min
+                                                                                                                              in 24 h            in 24 h
+Affoldern                                 110                                                                                           4                       Q m³/s
+Rotenburg (HE)                            400              430                470                                                  108                          cm
+Rotenburg (NI)                            360              400                470                                                                               cm
+Guntershausen (HE)                        380              410                450                              290                  #NV                         cm
+Guntershausen (NI)                        320              370                420                                                                               cm
+Bonaforth                                 380              430                480                              390                 207                          cm
+Heldra                                    320              380                430                                                  123                          cm
+Allendorf                                 300              350                410                              280                   55                         cm
+Letzter Heller                            320              370                460                                                  146                          cm
+Hann. Münden (HE)                         500              570                650                              410                         66  71               cm
+Hann. Münden (NI)                         400              470                510                                                                               cm
+Wahmbeck                                  420              480                530                              435                   99                95       cm
+Karlshafen                                390              440                480                              410                   56                53       cm
+Höxter                                    440              500                600                              450                   68                65       cm
+Bodenwerder                               440              470                530                              450                   86                83       cm
+Hameln-Wehrb.                             450              500                550                              465                   55                52       cm
+Rinteln                                   440              500                560                              485                   88                87       cm
+Vlotho                                    450              500                550                              485                   86                85       cm
+Porta                                     450              500                550             430              480                   93                92       cm
+Petershagen                               590              650                710             600              645                 251               250        cm
+Stolzenau                                 500              560                590             500              550                 306               305        cm
+Liebenau                                  510              570                630             490              535                 116               113        cm
+Nienburg                                  550              600                650             600              600                 370               367        cm
+Drakenburg                                610              670                740             650              695                 165               153        cm
+Hoya                                      550              600                650             590              590                 352               350        cm
+Dörverden                                 650              700                750             660              710                 226               222        cm
+Intschede                                 580              620                680             560              610                   15                         cm
 
 Legende
 HW: Hochwasserwarnstufen
@@ -1225,49 +1149,44 @@ muss der Ganglinie entnommen werden.
 
 
 
-
-
-
                                                                                                                                                         künftige Niederschläge
-   HW-Wellenberechnung2026-11-09bisDrakenburgMitBilanzTalsperre.xlsm                                                                             werden nicht berücksichtigt              .
+   HW-Wellenberechnung2026-11-11bisDrakenburgMitBilanzTalsperre.xlsm                                                                             werden nicht berücksichtigt              .
    Alle Zeitangaben in        MEZ                                                      14 / 15                                            Alle Angaben ohne Gewähr
-Parametersätze                                                    09.11.2026
+Parametersätze                                                    11.11.2026
                                       Faktor             const.                dt           MinQ               Exp              dExp                 Q  m             q m
                                             -                 -                 h            m³/s                 -                  -             m³/s          l/s/km²
-Schmittlotheim                                                                                                                                      3,4              2,8
-Edertalsperre                          1,304                                                   1,0           0,0000             0,010
+Schmittlotheim                                                                                                                                      3,2              2,7
+Edertalsperre                          0,935                                                   1,0           0,0000             0,010
 Wilhelmsbrücke                                                                                                                                      0,1              2,8
 Kotthausen                                                                                                                                          0,1              2,6
-Diemeltalsperre                        1,330                                                   0,0         -0,0100              0,020
-Rotenburg                              1,179               1,36            12,00               4,0           0,0600             0,020                   3,8          1,5
-Grebenau                               1,176              -5,20              5,00              6,1           0,0600             0,020                   5,9          2,0
+Diemeltalsperre                        1,295                                                   0,0         -0,0700              0,020
+Rotenburg                              1,179               1,49            12,00               4,0           0,0600             0,020                   3,8          1,5
+Grebenau                               1,176              -5,40              5,00              6,2           0,0600             0,020                   5,9          2,0
 Affoldern                              1,180               0,00              9,00                                                                       4,1          2,8
-Guntershausen                          1,089              10,46              6,00              6,5           0,0510             0,025                   8,2          1,3
-Bonaforth                              1,000              -5,60              1,40            17,5            0,0510             0,030                 20,2           2,9
-Heldra                                 1,201               1,56              9,00              1,0           0,0500             0,015                   8,6          2,0
-Allendorf                              1,062              -2,00              9,00              2,8           0,0500             0,015                 11,6           2,3
-Letzter Heller                         1,000               0,00              1,50            17,5            0,0510             0,030                   9,8          1,8
-Hann. Münden                           1,045               3,24              9,00            12,9            0,0385             0,030                 24,3           1,9
-Wahmbeck                               0,957              -1,55              3,00            16,7            0,0385             0,025                 28,7           2,2
+Guntershausen                          1,089               9,79              6,00              6,8           0,0510             0,025                   8,2          1,3
+Bonaforth                              1,000              -5,21              1,40            17,2            0,0510             0,030                19,7            2,8
+Heldra                                 1,201               1,31              9,00              1,0           0,0500             0,015                   8,3          1,9
+Allendorf                              1,062              -1,73              9,00              2,5           0,0500             0,015                11,4            2,2
+Letzter Heller                         1,000               0,00              1,50            17,2            0,0510             0,030                   9,9          1,8
+Hann. Münden                           1,045               3,28              9,00            12,9            0,0385             0,030                23,9            1,9
+Wahmbeck                               0,957              -1,93              3,00            16,8            0,0385             0,025                28,3            2,2
 Helmarshausen                                                                                  3,5           0,0385             0,025                   4,4          2,5
-Karlshafen                             1,048               1,51              6,00            14,4            0,0385             0,025                 30,2           2,0
-Höxter                                 1,027               0,62              8,00            17,6            0,0385             0,025                 33,3           2,2
-Bodenwerder                            1,073               0,62              3,00            18,7            0,0385             0,025                 35,1           2,2
-Hameln-Wehrb.                          1,017               0,40            11,00             20,7            0,0385             0,025                 38,6           2,3
-Rinteln                                1,013               1,09              6,00            21,5            0,0385             0,025                 39,5           2,3
-Vlotho                                 1,011               1,77              6,00            22,8            0,0385             0,025                 41,9           2,4
-Porta                                  1,023              -1,69              2,00            24,9            0,0385             0,025                 46,3           2,4
-Petershagen                            1,013              61,01              2,00            24,7            0,0385             0,030                 46,2           2,4
-Stolzenau                              1,003             -50,06              3,00            86,1            0,0385             0,030              105,3             5,3
-Liebenau                               1,096              28,91              2,00            36,3            0,0385             0,010                 57,9           2,9
-Nienburg                               1,005             -39,14              4,00            68,6            0,0385             0,010                 88,1           4,0
-Drakenburg                             1,006              12,16              6,00            29,8            0,0385             0,010                 53,2           2,4
-Hoya                                   1,005             -39,14              5,00            42,2            0,0385             0,010                 65,4           3,0
-Dörverden                              1,006              12,16              6,00            29,8            0,0385             0,010                 83,9           3,8
+Karlshafen                             1,048               1,79              6,00            14,1            0,0385             0,025                29,7            2,0
+Höxter                                 1,027               0,70              8,00            17,6            0,0385             0,025                32,8            2,1
+Bodenwerder                            1,073               0,31              3,00            18,8            0,0385             0,025                34,4            2,2
+Hameln-Wehrb.                          1,017               0,09            11,00             20,5            0,0385             0,025                37,6            2,2
+Rinteln                                1,013               1,66              6,00            20,9            0,0385             0,025                38,4            2,2
+Vlotho                                 1,011               1,30              6,00            22,9            0,0385             0,025                40,6            2,3
+Porta                                  1,023              -2,20              2,00            24,4            0,0385             0,025                44,6            2,3
+Petershagen                            1,013              58,49              2,00            23,8            0,0385             0,030                44,1            2,3
+Stolzenau                              1,003             -46,91              3,00            82,6            0,0385             0,030              103,8             5,2
+Liebenau                               1,096              31,34              2,00            35,9            0,0385             0,010                56,5            2,8
+Nienburg                               1,005             -43,40              4,00            70,7            0,0385             0,010                89,3            4,1
+Drakenburg                             1,006              16,88              6,00            27,6            0,0385             0,010                51,1            2,3
+Hoya                                   1,005             -43,40              5,00            44,7            0,0385             0,010                65,3            3,0
+Dörverden                              1,006              16,88              6,00            27,6            0,0385             0,010                82,1            3,7
 
-                                                              -7,50
-
-
+                                                             -4,88
 
 
 
@@ -1301,5 +1220,5 @@ Dörverden                              1,006              12,16              6,
 
 
                                                                                                                                                          künftige Niederschläge
-   HW-Wellenberechnung2026-11-09bisDrakenburgMitBilanzTalsperre.xlsm                                                                             werden nicht berücksichtigt               .
+   HW-Wellenberechnung2026-11-11bisDrakenburgMitBilanzTalsperre.xlsm                                                                             werden nicht berücksichtigt               .
    Alle Zeitangaben in        MEZ                                                      15 / 15                                             Alle Angaben ohne Gewähr
