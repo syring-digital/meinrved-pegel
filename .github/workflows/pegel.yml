@@ -1,11 +1,17 @@
 # Zentrale Datensammlung (PEGELONLINE der WSV, Vorhersage des WSA Weser): ein Abruf je Quelle, alle Verbraucher lesen die Ergebnisse
 # von hier. Läuft zweimal täglich, jeweils kurz VOR dem Prognose-Lauf (meinrved-prognose, 06:15 und 11:45 UTC), damit dieser frische
-# Werte aus live.json nehmen kann. Weil jeder Lauf 31 Tage zurückgreift, kann ein Lauf ausfallen, ohne dass Lücken entstehen.
+# Werte aus live.json nehmen kann. GitHub startet geplante Läufe oft Stunden zu spät oder lässt sie aus; deshalb gibt es zusätzliche
+# Zwischentermine (03, 09, 15 UTC). Weil jeder Lauf 31 Tage zurückgreift, kann ein Lauf ausfallen, ohne dass Lücken entstehen.
+# Das Veröffentlichen auf Pages wird bis zu dreimal versucht (Infrastrukturfehler am 14. und 21.11.2026); die Wache (wache.yml)
+# meldet per Fehlermail, wenn die veröffentlichten Daten zu alt werden.
 name: Pegelarchiv
 on:
   schedule:
+    - cron: '0 3 * * *'
     - cron: '0 6 * * *'
+    - cron: '0 9 * * *'
     - cron: '30 11 * * *'
+    - cron: '0 15 * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -20,7 +26,7 @@ jobs:
     timeout-minutes: 10
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: https://syring-digital.github.io/meinrved-pegel/
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -47,3 +53,23 @@ jobs:
           path: site
       - id: deploy
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Warten vor 2. Versuch
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 45
+      - id: deploy2
+        if: steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Warten vor 3. Versuch
+        if: steps.deploy.outcome == 'failure' && steps.deploy2.outcome == 'failure'
+        run: sleep 120
+      - id: deploy3
+        if: steps.deploy.outcome == 'failure' && steps.deploy2.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Veröffentlichen endgültig gescheitert
+        if: steps.deploy.outcome == 'failure' && steps.deploy2.outcome == 'failure' && steps.deploy3.outcome == 'failure'
+        run: |
+          echo "::error::Pages-Veröffentlichung nach drei Versuchen gescheitert. Die Daten sind im Repository gesichert."
+          exit 1

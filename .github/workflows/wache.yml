@@ -1,0 +1,33 @@
+# Wache: prüft stündlich, ob die veröffentlichten Daten frisch sind. Ist live.json älter als 14 Stunden (oder nicht erreichbar),
+# schlägt dieser Lauf fehl, und GitHub schickt eine Fehlermail an den Repository-Eigentümer.
+name: Wache
+on:
+  schedule:
+    - cron: '20 * * * *'
+  workflow_dispatch:
+permissions: {}
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Alter der veröffentlichten Daten
+        run: |
+          python3 - <<'EOF'
+          import json, sys, time, urllib.request, datetime as dt
+          MAX_STUNDEN = 14
+          url = f"https://syring-digital.github.io/meinrved-pegel/live.json?t={int(time.time())}"
+          letzter = None
+          for versuch in range(3):
+              try:
+                  d = json.load(urllib.request.urlopen(url, timeout=30))
+                  break
+              except Exception as e:
+                  letzter = e; time.sleep(20)
+          else:
+              print(f"::error::live.json nicht erreichbar: {letzter}"); sys.exit(1)
+          alter = (dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(d['abgerufen'])).total_seconds() / 3600
+          print(f"abgerufen {d['abgerufen']}, Alter {alter:.1f} Stunden")
+          if alter > MAX_STUNDEN:
+              print(f"::error::Veröffentlichte Pegeldaten sind {alter:.1f} Stunden alt (Grenze {MAX_STUNDEN})"); sys.exit(1)
+          EOF
